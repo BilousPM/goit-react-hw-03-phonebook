@@ -29,7 +29,7 @@ class Form extends Component {
     return (
     <form className={css.contact_form } onSubmit={this.handleContactSubmit} >
         <label className={css.form_label}>
-          Name
+          Name : 
           <input
             className={css.form_input}
             onChange={this.handleChange}
@@ -42,7 +42,7 @@ class Form extends Component {
           />
         </label>
         <label className={css.form_label}>
-          Number
+          Number : 
           <input
             className={css.form_input}
             onChange={this.handleChange}
